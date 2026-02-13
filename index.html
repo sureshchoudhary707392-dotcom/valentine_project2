@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="menu-btn" onclick="toggleMenu()">Suresh Choudhary</div>
+    
+    <div class="side-menu" id="sideMenu">
+        <h3>About Me</h3>
+        <p><strong>Name:</strong> Suresh Choudhary</p>
+        <p><strong>DOB:</strong> 2 Sept 2006</p>
+        <p><strong>Interests:</strong> Music & Cricket 🏏🎵</p>
+    </div>
+
+    <div class="container">
+        <div id="askSection">
+            <h1 class="question">Will you be my Valentine? ❤️</h1>
+            <div class="button-box">
+                <button id="yesBtn" onclick="sayYes()">Yes</button>
+                <button id="noBtn" onmouseover="runAway()">No</button>
+            </div>
+        </div>
+
+        <div id="thankYouSection" class="hidden">
+            <h1 class="success-msg">Yay! Best decision ever! 🥰</h1>
+            <p>I'll see you soon! - Suresh</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
